@@ -7,6 +7,5 @@ handlers:
   upload: index.html
   
  - url: /script\.js
-  static_files:  script.js
-  upload: script.js
+  static_dir:  .
   
