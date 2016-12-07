@@ -1,4 +1,4 @@
-(function doesBrowserSupportNotifications() {
+function doesBrowserSupportNotifications() {
     var supported = true;
     if (!('showNotification' in ServiceWorkerRegistration.prototype)) {
         console.warn('Notificationsn\'t supported in Service Workers.');
@@ -19,7 +19,7 @@
     if(supported) {
         console.log("Everthingine you can continue")
     }
-})();
+}
 
 ///////////////////////
  if (navigator.serviceWorker) {
