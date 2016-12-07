@@ -1,5 +1,9 @@
 runtime: php55
 threadsafe: true
+
 handlers:
 - url: /
-  script: index.html
+  static_file:  index.html
+
+welcome_files:
+- index.html
