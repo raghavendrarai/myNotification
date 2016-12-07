@@ -5,3 +5,8 @@ handlers:
 - url: /
   static_files:  index.html
   upload: index.html
+  
+ - url: /script.js
+  static_files:  script.js
+  upload: script.js
+  
