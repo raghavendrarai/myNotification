@@ -3,7 +3,7 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_file:  index.html
+  static_files:  index.html
 
 welcome_files:
 - index.html
