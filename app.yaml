@@ -1,3 +1,4 @@
+runtime: python27
 handlers:
 - url: /
   script: index.html
