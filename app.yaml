@@ -3,7 +3,7 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files:  index.html
+  static_dir:  .
   upload: index.html
   
   
