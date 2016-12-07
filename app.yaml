@@ -10,4 +10,10 @@ handlers:
   static_files: script.js
   upload: script.js
   
+- url: /manifest\.json
+  static_files: manifest.json
+  upload: manifest.json
   
+- url: /sw\.js
+  static_files: sw.js
+  upload: sw.js
